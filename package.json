@@ -1,9 +1,9 @@
 {
   "name": "fk-tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "bin": {
-    "fk": "./bin/fk-tools"
+    "fk": "./bin/fk-tool"
   },
   "scripts": {
     "compile": "rm -rf lib && babel -d lib/ src/",
