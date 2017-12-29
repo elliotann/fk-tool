@@ -1,0 +1,54 @@
+{
+  "name": "fk-tool",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "fk": "./bin/fk-tools"
+  },
+  "scripts": {
+    "compile": "rm -rf lib && babel -d lib/ src/",
+    "commit": "git add . && git commit -m 'zlj' &&  git push -u origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliotann/fk-tool.git"
+  },
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elliotann/fk-tool/issues"
+  },
+  "homepage": "https://github.com/elliotann/fk-tool#readme",
+  "dependencies": {
+    "apidoc-core": "^0.8.3",
+    "art-template": "^4.12.2",
+    "babel-runtime": "^6.26.0",
+    "commander": "^2.12.2",
+    "mk-utils": "^1.0.55",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "through2": "^2.0.3",
+    "vinyl-fs": "^2.4.4",
+    "which": "^1.2.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
