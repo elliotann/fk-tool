@@ -74,11 +74,11 @@ module.exports = {
             commonjs:"MK.utils",
            
         },
-        "mk-component": {
-            root:["MK","component"],
-            commonjs2:"MK.component",
-            amd:"MK.component",
-            commonjs:"MK.component"
+        "fk-component": {
+            root:["FK","component"],
+            commonjs2:"FK.component",
+            amd:"FK.component",
+            commonjs:"FK.component"
         },
         "mk-meta-engine":  {
             commonjs:["MK","metaEngine"],

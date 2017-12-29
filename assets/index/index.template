@@ -7,5 +7,5 @@ ${define-apps}
 
 apps.config({ '*': { apps } })
 config(myConfig({ apps }))
-${regisiter-mk-component}
+${regisiter-fk-component}
 start()

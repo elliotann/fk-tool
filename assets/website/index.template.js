@@ -1,5 +1,5 @@
 import { config, start, componentFactory } from 'mk-meta-engine'
-import * as mkComponents from 'mk-component'
+import * as mkComponents from 'fk-component'
 import myConfig  from './config'
 {{each apps}}
 import {{$value.name}} from './{{$value.relaIndexPath}}'{{/each}}
