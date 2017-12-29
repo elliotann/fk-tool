@@ -1,0 +1,15 @@
+{
+  "name": "${appName}",
+  "version": "1.0.0",
+  "description": "${appName}",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-min": "cross-env NODE_ENV=production COMPRESS=1 webpack",
+    "start": "cross-env webpack-dev-server --inline --progress --colors --watch --compress --content-base ./dist  --port 8000 --host 0.0.0.0",   
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+import { config, start, componentFactory } from 'mk-meta-engine'
+import myConfig  from './config'
+
+${import-apps}
+
+${define-apps}
+
+apps.config({ '*': { apps } })
+config(myConfig({ apps }))
+${regisiter-mk-component}
+start()
