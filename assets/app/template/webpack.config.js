@@ -67,11 +67,11 @@ module.exports = {
             commonjs2:"MK.appLoader",
             amd:"MK.appLoader"
         },
-        "mk-utils": {
-            root:["MK","utils"],
-            commonjs2:"MK.utils",
-            amd:"MK.utils",
-            commonjs:"MK.utils",
+        "fk-utils": {
+            root:["FK","utils"],
+            commonjs2:"FK.utils",
+            amd:"FK.utils",
+            commonjs:"FK.utils",
            
         },
         "fk-component": {

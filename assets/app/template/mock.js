@@ -3,7 +3,7 @@
  * 模拟查询更改内存中mockData,并返回数据
  */
 
-import { fetch } from 'mk-utils'
+import { fetch } from 'fk-utils'
 
 const mockData = fetch.mockData
 

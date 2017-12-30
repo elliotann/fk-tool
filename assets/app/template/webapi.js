@@ -4,7 +4,7 @@
  */
 
 
-import { fetch } from 'mk-utils'
+import { fetch } from 'fk-utils'
 
 export default {
     /*

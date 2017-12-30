@@ -46,7 +46,7 @@ function createWebsite(websiteName, dest) {
 				'react-dom',
 				'mk-meta-engine',
 				'fk-component',
-				'mk-utils',
+				'fk-utils',
 				'moment',
 				'--save'
 			], dest)

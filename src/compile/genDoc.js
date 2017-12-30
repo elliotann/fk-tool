@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import * as utils from '../utils'
 import apidoc from 'apidoc-core'
-import beautify from 'mk-utils/lib/beautify'
+import beautify from 'fk-utils/lib/beautify'
 
 export default function gen() {
   
