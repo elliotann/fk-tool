@@ -1,6 +1,6 @@
 {
   "name": "fk-tool",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "bin": {
     "fk": "./bin/fk-tool"
@@ -25,7 +25,7 @@
     "art-template": "^4.12.2",
     "babel-runtime": "^6.26.0",
     "commander": "^2.12.2",
-    "fk-utils": "^1.0.1",
+    "fk-utils": "^1.0.2",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
     "through2": "^2.0.3",

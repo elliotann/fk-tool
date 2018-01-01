@@ -1,4 +1,4 @@
-const { config, start } = require("mk-server")
+const { config, start } = require("fk-server")
 const serverConfig = require("./config")
 {{each services}}
 const {{$value.name}} = require("./{{$value.relaPath}}"){{/each}}

@@ -60,12 +60,12 @@ module.exports = {
             commonjs: 'immutable',
             amd: 'immutable'
         },
-        "mk-sdk": "MK",
-        "mk-app-loader": {
-            root:["MK","appLoader"],
-            commonjs:"MK.appLoader",
-            commonjs2:"MK.appLoader",
-            amd:"MK.appLoader"
+        "fk-sdk": "FK",
+        "fk-app-loader": {
+            root:["FK","appLoader"],
+            commonjs:"FK.appLoader",
+            commonjs2:"FK.appLoader",
+            amd:"FK.appLoader"
         },
         "fk-utils": {
             root:["FK","utils"],
@@ -86,8 +86,8 @@ module.exports = {
             amd:"FK.metaEngine",
             root:"FK.metaEngine"
         },
-        "mk-aar-form":"mk-aar-form",
-        "mk-aar-grid":"mk-aar-grid"
+        "fk-aar-form":"fk-aar-form",
+        "fk-aar-grid":"fk-aar-grid"
     },
 
     module: {
