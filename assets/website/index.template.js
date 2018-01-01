@@ -1,4 +1,4 @@
-import { config, start, componentFactory } from 'mk-meta-engine'
+import { config, start, componentFactory } from 'fk-meta-engine'
 import * as mkComponents from 'fk-component'
 import myConfig  from './config'
 {{each apps}}

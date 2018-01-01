@@ -1,5 +1,5 @@
 import { Map } from 'immutable'
-import { reducer as MetaReducer } from 'mk-meta-engine'
+import { reducer as MetaReducer } from 'fk-meta-engine'
 import config from './config'
 import { getInitState } from './data'
 

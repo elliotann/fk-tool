@@ -80,11 +80,11 @@ module.exports = {
             amd:"FK.component",
             commonjs:"FK.component"
         },
-        "mk-meta-engine":  {
-            commonjs:["MK","metaEngine"],
-            commonjs2:"MK.metaEngine",
-            amd:"MK.metaEngine",
-            root:"MK.metaEngine"
+        "fk-meta-engine":  {
+            commonjs:["FK","metaEngine"],
+            commonjs2:"FK.metaEngine",
+            amd:"FK.metaEngine",
+            root:"FK.metaEngine"
         },
         "mk-aar-form":"mk-aar-form",
         "mk-aar-grid":"mk-aar-grid"

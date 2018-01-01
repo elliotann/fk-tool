@@ -1,5 +1,5 @@
 import React from 'react'
-import { action as MetaAction, AppLoader } from 'mk-meta-engine'
+import { action as MetaAction, AppLoader } from 'fk-meta-engine'
 import config from './config'
 
 class action {
